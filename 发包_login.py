@@ -23,7 +23,7 @@ class wireshark_login():
     # 模拟登录，并返回 title
     def github_login(self, authenticity_token, username, password):
         session_url = "https://github.com/session"
-        #构建body内容
+        #构建body内容，需
         body = {
             "authenticity_token":authenticity_token,
             "commit":"Sign in",
