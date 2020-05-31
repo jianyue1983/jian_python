@@ -1,0 +1,9 @@
+-
+  id: test_memberDel.1
+  detail: 存在的用户名
+  screenshot: user_is_exists
+  data:
+    membername: test202001
+  check:
+    - ×提示信息操作成功！
+

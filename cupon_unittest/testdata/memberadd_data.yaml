@@ -1,0 +1,23 @@
+-
+  id: test_memberMan.1
+  detail: 会员名id电话都齐全
+  screenshot: name_id_phone_right
+  data:
+    membername: test202001
+    memberid: test202001
+    phone: 13658475847
+
+  check:
+    - ×提示信息操作成功！
+-
+  id: test_memberMan.2
+  detail: 会员姓名重复
+  screenshot: name_is_repeat
+  data:
+    membername: test202001
+    memberid: test202001
+    phone: 13658475847
+
+  check:
+    - ×提示信息重复注册用户
+
